@@ -12,19 +12,6 @@ export interface RTCConnectionVideoEventArgs {
     context: string;
 }
 
-export interface StreamStartEventArgs {
-    appContext: string;
-    audioSourceId: string;
-    channelId: string;
-    guildId: string;
-    previewDisabled: boolean;
-    sound: boolean;
-    sourceId: string;
-    sourceName: string;
-    streamType: string;
-    type: string;
-}
-
 export interface Stream {
     channelId: string;
     guildId: string;
