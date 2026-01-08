@@ -38,7 +38,7 @@ let streamId: number;
 
 export default definePlugin({
     name: "streamUtilities",
-    description: "A set of utilities for managing and enhancing streaming functionality",
+    description: "Allows uploading custom stream previews",
     authors: [/* Devs.Zorian*/],
     contextMenus: {
         "stream-context": streamContext,
