@@ -37,7 +37,7 @@ let retryUpdate: any | undefined;
 let streamId: number;
 
 export default definePlugin({
-    name: "streamUtilities",
+    name: "customPreview",
     description: "Allows uploading custom stream previews",
     authors: [/* Devs.Zorian*/],
     contextMenus: {
